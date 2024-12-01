@@ -48,3 +48,6 @@ for i, j in data_panen.items():
         print(f"{lokasi}  memerlukan perhatian khusus.")
     else:
         print(f"{lokasi} dalam kondisi baik.")
+
+nama_lokasi_5 = data_panen["lokasi5"]["nama_lokasi"]
+print(f"\nNama lokasi dari lokasi 5: {nama_lokasi_5}")  
